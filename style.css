@@ -1,0 +1,40 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+
+
+#image-cover {
+    width: 100%;
+
+}
+
+.doante-header {
+    position: relative;
+    text-align: center;
+    color: hsla(60, 22%, 91%, 0.925);
+
+}
+
+h1 {
+    font-size: 50px;
+}
+
+.child {
+    color: orange;
+}
+
+.text-center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 25px;
+}
+
+.donation {
+    text-decoration: none;
+    background-image: linear-gradient(red, orange);
+    padding: 10px 30px;
+    border-radius: 5%;
+}
