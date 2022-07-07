@@ -21,7 +21,11 @@ h1 {
 }
 
 .child {
-    color: orange;
+    color: tomato;
+}
+
+.section {
+    display: flex;
 }
 
 .text-center {
@@ -34,7 +38,200 @@ h1 {
 
 .donation {
     text-decoration: none;
-    background-image: linear-gradient(red, orange);
+    background-image: linear-gradient(orange, tomato);
     padding: 10px 30px;
     border-radius: 5%;
+    color: white;
+}
+
+.doante-kids {
+    position: absolute;
+    text-align: center;
+    right: 25%;
+    left: 25%;
+
+}
+
+.columns {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+
+
+}
+
+.tk-100 {
+    position: absolute;
+    width: 102px;
+    height: 53px;
+    left: 170px;
+    top: 259px;
+    border: 7px;
+    background-color: rgba(0, 0, 255, 0.172);
+    border-radius: 5%;
+
+}
+
+.tk-200 {
+    position: absolute;
+    width: 102px;
+    height: 53px;
+    left: 290px;
+    top: 259px;
+    border: 7px;
+    background-color: rgb(255, 127, 7);
+    border-left: 5px;
+
+}
+
+.tk-500 {
+    position: absolute;
+    width: 102px;
+    height: 53px;
+    left: 410px;
+    top: 259px;
+    border: 7px;
+    background-color: rgba(0, 0, 255, 0.172);
+    border-left: 5px;
+
+}
+
+.tk-1000 {
+    position: absolute;
+    width: 102px;
+    height: 53px;
+    left: 530px;
+    top: 259px;
+    border: 7px;
+    background-color: rgba(0, 0, 255, 0.172);
+    border-left: 5px;
+
+
+}
+
+.tk-5000 {
+    position: absolute;
+    width: 102px;
+    height: 53px;
+    left: 650px;
+    top: 259px;
+    border: 7px;
+    background-color: rgba(0, 0, 255, 0.172);
+    border-left: 5px;
+
+
+}
+
+.amount {
+    position: absolute;
+    width: 192px;
+    height: 28px;
+    left: 380px;
+    top: 350px;
+    font-size: 15px;
+}
+
+.hole-border {
+    position: absolute;
+    width: 620px;
+    height: 0px;
+    left: 155px;
+    top: 400px;
+
+    border: 1px solid #cf2f2f;
+}
+
+#donate {
+    position: absolute;
+
+    left: 380px;
+    top: 409.5px;
+}
+
+.our-plan {
+    position: absolute;
+    width: 691px;
+    height: 130px;
+    text-align: center;
+    left: 610px;
+    top: 1415.5px;
+}
+
+.project {
+    position: absolute;
+    width: 260px;
+    height: 430px;
+    left: 450px;
+    top: 1700px;
+
+    background: rgba(79, 157, 166, 0.1);
+    border-radius: 10px;
+}
+
+.speacial-day {
+    position: absolute;
+    width: 260px;
+    height: 430px;
+    left: 850px;
+    top: 1700px;
+
+    background: rgba(255, 111, 0, 0.1);
+    border-radius: 10px;
+}
+
+.birthday {
+    position: absolute;
+    width: 260px;
+    height: 430px;
+    left: 1250px;
+    top: 1700px;
+
+    background: rgba(223, 252, 5, 0.1);
+    border-radius: 10px;
+
+}
+
+
+
+
+.mailbox {
+    position: absolute;
+    width: 4000px;
+    height: 0;
+    left: 850px;
+    top: 2450px;
+    background-color: rgb(116, 16, 16);
+    border: 40px;
+    color: aliceblue;
+
+}
+
+.button {
+    background-color: #cf2f2f;
+}
+
+
+
+.update {
+    position: absolute;
+    width: 691px;
+    height: 130px;
+    left: 650px;
+    top: 2200px;
+}
+
+footer {
+    position: absolute;
+    color: white;
+    width: 1910px;
+    height: 200px;
+    left: 0%;
+    right: 0%;
+    top: 2500px;
+    bottom: 0%;
+    text-align: center;
+    border: 30px;
+    background-color: rgb(0, 0, 0);
+
+
 }
